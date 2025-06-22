@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<link rel = "stylesheet" href = "style.css">
+<link href="https://hangeul.pstatic.net/hangeul_static/css/maru-buri.css" rel="stylesheet">
+<link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square-neo.css" rel="stylesheet">
+
+<html>
+    <head>
+        <title>main</title>
+    </head>
+
+    <body>
+       <h1>오늘의 일기</h1>
+       <hr>
+       <p class = "글귀">오늘 하루를 기록합니다 <br>
+                        맛있었던 것, 좋았던 것 모두!</p><br>
+
+
+        <div class = "박스">
+        <script>
+            var 한자 = ['月', '火', '水', '木', '金', '土', '日' ];
+            var link = ['Monday.html', 'Tuesday.html', 'Wendesday.html', 'Thursday.html', 'Friday.html',
+                        'Saturday.html', 'Sunday.html']
+            var i = 0;
+            
+            while(i<7) {
+                document.write('<div class = "요일"><a href = "'+ link[i] + '">' + 한자[i] + '</div>');
+                i++;
+            }
+        </script>
+        </div>
+
+
+
+    </body>
+
+</html>
+

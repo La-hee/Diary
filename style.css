@@ -1,0 +1,221 @@
+body h1 {
+    font-size : 60px;
+    text-align : center;
+    font-family: 'MaruBuri';
+    color : #C9AD9B;
+    margin-bottom : 10px;
+}
+
+body hr {
+    width : 60%;
+    color : #C9AD9B;
+    border-style: solid;
+}
+
+.글귀 {
+    text-align : center;
+    font-size : 20px;
+    font-family: 'MaruBuriLight';
+    color : #C9AD9B;
+    padding-bottom : 50px;
+}
+
+/* 월,화,수,목,금,토,일 이동 부분*/
+.요일{
+
+    display : grid;
+    text-align: center;
+    border : solid #C9AD9B;
+    padding : 20px;
+    font-family: 'MaruBuri';
+    font-size : 40px;
+    color : #91a6b9;
+}
+
+.요일 a {
+    text-decoration : none;
+    color : #91a6b9;
+}
+
+.박스{
+    display : grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding : 20px;
+    gap : 20px;
+}
+
+/* 요일 페이지 오늘은 ~요일부분 */
+.좌상단 p {
+    margin-bottom : 0;
+    padding-bottom : 0px;
+}
+
+.좌상단 p a {
+    text-align : left;
+    padding-left : 20px;
+    text-decoration: none;
+    font-family: 'MaruBuri';
+    font-size : 40px;
+    color : #91a6b9;
+}
+
+.좌상단 span {
+    font-size : 60px;
+    color : #91a6b9;
+    text-decoration : none;
+}
+
+.좌상단 hr {
+    width : 260px;
+    color : #91a6b9;
+    margin-left : 20px;
+    margin-top : 0px;
+}
+
+
+
+
+/* 요일 페이지 내용, 일기 */
+.내용 {
+    display : flex;
+    width : 100%;
+    gap : 10px;
+}
+
+.일기 {
+    flex : 1;
+    font-family : 'MaruBuri';
+    font-size : 30px;
+    text-align : center;
+    display : grid;
+    grid-template-rows : 60px 60px 60px 60px 60px;
+    gap : 20px;
+    justify-content: center;
+    padding-top: 100px;
+    width : 90%;
+}
+
+.일기 p {
+
+   display : block;
+   border-bottom : 1px solid black;
+   padding-bottom : 40px;
+   width : 900px;
+
+}
+
+/* 아래 음식페이지 이동 부분 */
+.음식 {
+    text-align : right;
+    font-family : 'MaruBuri';
+    font-size : 20px;
+    padding-top : 20px;
+}
+
+.음식 span a {
+    text-decoration : None;
+    color : black;
+}
+
+/* 음식 페이지 */
+
+.food {
+    display : flex;
+    width : 100%;
+    padding-top : 30px;
+    gap : 20px;
+    padding-left : 30px;
+    
+}
+
+.food p {
+    margin : 10px;
+    padding : 1px;
+}
+
+.food span {
+    display : inline-block;
+    background-color : #FFE99C;
+    font-size : 20px;
+    text-align: left;
+    font-weight : bold;
+    padding-left : 10px;
+    width : 900px;
+
+}
+
+.food iframe {
+    padding-top : 10px;
+    align-self : center;
+    border : none;
+    width : 700px;
+    height : 500px;
+    margin-bottom : 20px;
+}
+
+
+.리뷰 {
+    font-family : 'NanumSquareNeo';
+    display : flex;
+    flex-direction: column;
+    font-size : 30px;
+    text-align : center;
+    padding-top : 20px;
+}
+
+/* 별점 주기 */
+.별점 {
+    font-family : 'MaruBuri';
+    font-size : 30px;
+    flex-direction : column;
+    display : inline-block;
+
+    background-color : #FFE99C;
+    font-size : 20px;
+    text-align: left;
+    font-weight : bold;
+    margin-left : 25px;
+    width : 900px;
+    padding-left : 10px;
+
+}
+
+.별점 span {
+    align-self : center;
+    padding-left : 0;
+}
+
+#별점주기 {
+    margin : 40px;
+}
+
+.내거 {
+    font-family : 'MaruBruri';
+    padding-left: 25px;
+    text-align : center;
+    
+}
+
+.내거 p {
+    text-align: center;
+    font-size : 40px;
+}
+
+
+
+
+/* 사진 테두리 점선부분*/
+.대표사진 {
+   flex : 1;
+   align-self : center;
+    max-width : 30%;
+    height : auto;
+    display : block;
+    flex-shrink: 0;
+    padding : 5px;
+    margin : 20px;
+    border-style : dashed;
+    border-color : #e5c652;
+    box-sizing : border-box;
+   
+}

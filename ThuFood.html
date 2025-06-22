@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<link rel = "stylesheet" href = "style.css">
+<link href="https://hangeul.pstatic.net/hangeul_static/css/maru-buri.css" rel="stylesheet">
+<link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square-neo.css" rel="stylesheet">
+
+
+<html>
+    <head>
+    <title>라리에또</title>
+    
+    <script>
+        function star() {
+            document.getElementById("별점주기").style.display = "none";
+            document.getElementById("출력").style.display = "block";
+        }
+    </script>
+    </head>
+
+    <body>
+    </body>
+        <div class = "좌상단">
+            <p><a href= "index.html" title="메인으로"> 맛있게 먹은 것</a> </p>
+            <hr>
+        </div>
+
+        <div class = "food">
+            <div class = "리뷰">
+                <span> 한 줄평 </span>
+                <p>양을 커스텀으로 추가할 수 있다!</p>
+                <p>1.1배~2배까지 원하는 만큼 추가할 수 있지만, 남길 경우 부담금을 내야 한다 </p>
+                <p>1.2배로 주문했었는데 나같은 사람은 기본으로도 충분할 것 같다</p>
+                <span> 가는 방법 </span>
+                <iframe src = "https://naver.me/xNLZeqWr"></iframe>
+            </div>
+             <img src = "목요일 음식.jpg" class = "대표사진">
+        </div>
+
+        <div class = "별점">
+            <span> 별점 </span>
+        </div>
+
+        <div class = "내거">
+        <input id ="별점주기" value = "확인하기" type = "button" onclick = "star()">
+        <p id = "출력" style = "display : none;">⭐️⭐️⭐️⭐️</p>
+        </div>
+    
+    </body>
+</html>

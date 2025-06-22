@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<link rel = "stylesheet" href = "style.css">
+<link href="https://hangeul.pstatic.net/hangeul_static/css/maru-buri.css" rel="stylesheet">
+<link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square-neo.css" rel="stylesheet">
+
+
+<html>
+    <head>
+    <title>유키모찌</title>
+    
+    <script>
+        function star() {
+            document.getElementById("별점주기").style.display = "none";
+            document.getElementById("출력").style.display = "block";
+        }
+    </script>
+    </head>
+
+    <body>
+    </body>
+        <div class = "좌상단">
+            <p><a href= "index.html" title="메인으로"> 맛있게 먹은 것</a> </p>
+            <hr>
+        </div>
+
+        <div class = "food">
+            <div class = "리뷰">
+                <span> 한 줄평 </span>
+                <p> 밥을 먹고 뭐 맛있는 거 없나 보다가 발견한 모찌 아이스크림집이다</p>
+                <p> 주문하자마자 바로 아이스크림을 모찌로 감싸주셨다</p>
+                <p> 쫀득하고 아이스크림도 맛있으니 아주 만족스러웠다 </p>
+                <span> 가는 방법 </span>
+                <iframe src = "https://naver.me/5Iiuxq1a"></iframe>
+            </div>
+             <img src = "일요일 음식.jpg" class = "대표사진">
+        </div>
+
+        <div class = "별점">
+            <span> 별점 </span>
+        </div>
+
+        <div class = "내거">
+        <input id ="별점주기" value = "확인하기" type = "button" onclick = "star()">
+        <p id = "출력" style = "display : none;">⭐️⭐️⭐️⭐️</p>
+        </div>
+    
+    </body>
+</html>
